@@ -40,6 +40,7 @@ function App() {
         <br />
         <h3>Projects</h3>
         <Projects />
+        <h1>trial</h1>
       </section>
     </main>
   )
