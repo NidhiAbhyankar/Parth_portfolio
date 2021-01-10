@@ -1,6 +1,7 @@
 import React from 'react'
 import Experience from './Experience'
 import Projects from './Projects'
+import Navbar from './Navbar'
 
 const pic =
   'https://media-exp1.licdn.com/dms/image/C4D03AQFMpe9di4T1Wg/profile-displayphoto-shrink_200_200/0/1606284846758?e=1615420800&v=beta&t=N2Qk937nH4zcoVRU8vlX7_7pcRi2MLhIKacrZyNQjWg'
@@ -8,6 +9,9 @@ const pic =
 function App() {
   return (
     <main>
+      <Navbar />
+      <br />
+      <br />
       <section className='container'>
         <div className='title'>
           <h1>hello</h1>
@@ -40,7 +44,6 @@ function App() {
         <br />
         <h3>Projects</h3>
         <Projects />
-        <h1>trial</h1>
       </section>
     </main>
   )
