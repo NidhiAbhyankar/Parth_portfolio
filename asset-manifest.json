@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/Parth_portfolio/static/css/main.45defed8.chunk.css",
-    "main.js": "/Parth_portfolio/static/js/main.997fa780.chunk.js",
-    "main.js.map": "/Parth_portfolio/static/js/main.997fa780.chunk.js.map",
+    "main.css": "/Parth_portfolio/static/css/main.3ca630b2.chunk.css",
+    "main.js": "/Parth_portfolio/static/js/main.fd24968d.chunk.js",
+    "main.js.map": "/Parth_portfolio/static/js/main.fd24968d.chunk.js.map",
     "runtime-main.js": "/Parth_portfolio/static/js/runtime-main.18e6bace.js",
     "runtime-main.js.map": "/Parth_portfolio/static/js/runtime-main.18e6bace.js.map",
     "static/js/2.44e32ef6.chunk.js": "/Parth_portfolio/static/js/2.44e32ef6.chunk.js",
     "static/js/2.44e32ef6.chunk.js.map": "/Parth_portfolio/static/js/2.44e32ef6.chunk.js.map",
     "index.html": "/Parth_portfolio/index.html",
-    "static/css/main.45defed8.chunk.css.map": "/Parth_portfolio/static/css/main.45defed8.chunk.css.map",
+    "static/css/main.3ca630b2.chunk.css.map": "/Parth_portfolio/static/css/main.3ca630b2.chunk.css.map",
     "static/js/2.44e32ef6.chunk.js.LICENSE.txt": "/Parth_portfolio/static/js/2.44e32ef6.chunk.js.LICENSE.txt",
     "static/media/ParthMujumdar.77b362f6.pdf": "/Parth_portfolio/static/media/ParthMujumdar.77b362f6.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.18e6bace.js",
     "static/js/2.44e32ef6.chunk.js",
-    "static/css/main.45defed8.chunk.css",
-    "static/js/main.997fa780.chunk.js"
+    "static/css/main.3ca630b2.chunk.css",
+    "static/js/main.fd24968d.chunk.js"
   ]
 }
