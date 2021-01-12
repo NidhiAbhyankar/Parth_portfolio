@@ -1,18 +1,5 @@
 import React from 'react'
 import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa'
-import resumePdf from './ParthMujumdar.pdf'
-export const links = [
-  {
-    id: 1,
-    url: { resumePdf },
-    text: 'resume',
-  },
-  {
-    id: 2,
-    url: '/',
-    text: 'contact me',
-  },
-]
 
 export const social = [
   {

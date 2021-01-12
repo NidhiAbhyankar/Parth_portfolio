@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Experience from './Experience'
 import Projects from './Projects'
 import Navbar from './Navbar'
@@ -7,11 +7,33 @@ const pic =
   'https://media-exp1.licdn.com/dms/image/C4D03AQFMpe9di4T1Wg/profile-displayphoto-shrink_200_200/0/1606284846758?e=1615420800&v=beta&t=N2Qk937nH4zcoVRU8vlX7_7pcRi2MLhIKacrZyNQjWg'
 
 function App() {
+  const [showForm, setFormStatus] = useState(false)
+  const viewData = () => setFormStatus(true)
   return (
     <main>
-      <Navbar />
+      <Navbar viewData={viewData} />
       <br />
       <br />
+      <div>
+        {showForm && (
+          <form>
+            <ul>
+              <li>
+                <input type='text' placeholder='name' className='grocery' />
+                <button className='btn-filter' type='submit'>
+                  submit
+                </button>
+              </li>
+              <li>
+                <input type='email' placeholder='email' className='grocery' />
+                <button type='submit' className='btn-filter'>
+                  submit
+                </button>
+              </li>
+            </ul>
+          </form>
+        )}
+      </div>
       <section className='container'>
         <div className='title'>
           <h1>hello</h1>
