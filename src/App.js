@@ -37,13 +37,14 @@ function App() {
         <br />
         <br />
         <br />
-        <h3>Experience</h3>
-        <Experience />
-        <br />
-        <br />
-        <br />
         <h3>Projects</h3>
         <Projects />
+        <br />
+        <br />
+        <br />
+
+        <h3>Experience</h3>
+        <Experience />
       </section>
     </main>
   )

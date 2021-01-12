@@ -53,6 +53,33 @@ const reviews = [
     text:
       '  Suggested an alternate approach to correctly calculate the cost coefficients. Developed a Wagner-within algorithm, which was more efficient than the current model to reduce the inventory level.Computed a service level increase in the range of 10-15% with the suggested Wagner-within inventory model.',
   },
+  {
+    id: 7,
+    name: 'Caterpilla Inc',
+
+    date: 'Jan 2020-May 2020',
+
+    text:
+      'Created Value Stream Maps for two system processes and identified areas of improvement. Benchmarked best practices in those areas and provided recommendations.  Optimized delivery process by classification of products by category. Reduced the lead time by eliminating nonvalue adding processes.',
+  },
+  {
+    id: 8,
+    name: 'Lenovo',
+
+    date: 'Aug 2019-Dec 2019',
+
+    text:
+      'Cleaned, sorted, and classified web sentiment data, net promoter score (NPS) data, and telemetry data.Implemented regression analysis using python to predict the NPS score from the selected parameters of sentiment data and telemetry data.',
+  },
+  {
+    id: 9,
+    name: 'Right Tight Fasteners Pvt.Ltd',
+
+    date: 'Jul 2017-Jun 2018',
+
+    text:
+      'Cleaned, sorted, and classified web sentiment data, net promoter score (NPS) data, and telemetry data.Implemented regression analysis using python to predict the NPS score from the selected parameters of sentiment data and telemetry data.',
+  },
 ]
 
 export default reviews

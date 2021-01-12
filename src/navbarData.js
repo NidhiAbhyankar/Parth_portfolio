@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaBehance, FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa'
+import { FaFacebook, FaLinkedin, FaTwitter } from 'react-icons/fa'
 import resumePdf from './ParthMujumdar.pdf'
 export const links = [
   {
@@ -10,7 +10,7 @@ export const links = [
   {
     id: 2,
     url: '/',
-    text: 'contacts',
+    text: 'contact me',
   },
 ]
 
